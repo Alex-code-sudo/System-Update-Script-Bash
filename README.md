@@ -1,9 +1,9 @@
-System Update Manager
+## System Update Manager:
 
 An advanced system update manager for Ubuntu/Debian featuring an interactive menu, multi-package management (APT, Flatpak, Snap), and comprehensive logging.
 
 
-Features
+## Features
 
     Easy-to-use interactive menu
     Supports updating APT, Flatpak, and Snap packages
@@ -17,19 +17,22 @@ Features
 
     Clone this repository:
     ```bash
-git clone https://github.com/Alex-code-sudo/System-Update-Script-Bash.git && cd System-Update-Script-Bash
+    git clone https://github.com/Alex-code-sudo/System-Update-Script-Bash.git && cd System-Update-Script-Bash
 
-Usage
+
+## Usage
 
     Make the script executable:
     
-
+```bash
 chmod +x System-Update-Script
 
-Run the script:
 
 
-    ./System-Update-Script
+Run the script
+
+```bash
+./System-Update-Script
 
     Follow the on-screen menu:
         Update package lists
