@@ -1,53 +1,53 @@
 ## System Update Manager
 
-Ein fortschrittlicher System-Update-Manager für Ubuntu/Debian mit interaktivem Menü, Multi-Paketverwaltung (APT, Flatpak, Snap) und umfassender Protokollierung.
+An advanced system update manager for Ubuntu/Debian featuring an interactive menu, multi-package management (APT, Flatpak, Snap), and comprehensive logging.
 
 ## Features
 
-- Einfach zu bedienendes, interaktives Menü
-- Unterstützt das Aktualisieren von APT-, Flatpak- und Snap-Paketen
-- Komplettes System-Upgrade und Reinigungs-Workflow
-- Systeminformationen und Erkennung des Paketmanagers
-- Detaillierte Protokollierung mit automatischer Log-Rotation
-- Farbige und informative Ausgaben
-- Fehlerbehandlung und Benutzerführung
+- Easy-to-use interactive menu
+- Supports updating APT, Flatpak, and Snap packages
+- Complete system upgrade and cleanup workflow
+- System information and package manager detection
+- Detailed logging with automatic log rotation
+- Colorful and informative output
+- Error handling and user guidance
 
 ## Installation
 
-Repository klonen:
+Clone this repository:
 ```bash
 git clone https://github.com/Alex-code-sudo/System-Update-Script-Bash.git && cd System-Update-Script-Bash
 ```
 
 ## Usage
 
-Skript ausführbar machen:
+Make the script executable:
 ```bash
 chmod +x System-Update-Script
 ```
 
-Skript starten:
+Run the script:
 ```bash
 ./System-Update-Script
 ```
 
-Folge dem Menü auf dem Bildschirm:
-- Paketlisten aktualisieren
-- Pakete upgraden
-- System bereinigen
-- Kompletter Update-Workflow
-- Flatpak- oder Snap-Apps aktualisieren
-- Systeminformationen anzeigen
-- Beenden
+Follow the on-screen menu:
+- Update package lists
+- Upgrade packages
+- Clean up system
+- Run a complete update workflow
+- Update Flatpak or Snap apps
+- Show system information
+- Exit
 
-**Hinweis:**
-- Das Skript muss nicht als root ausgeführt werden. Es fragt bei Bedarf nach sudo.
-- Eine Internetverbindung ist erforderlich.
-- Logs werden unter `~/.update-logs/` gespeichert und nach 30 Tagen automatisch gelöscht.
+**Note:**
+- The script does not need to be run as root. It will prompt for sudo when necessary.
+- Internet connection is required.
+- Logs are saved under `~/.update-logs/` and automatically cleaned up after 30 days.
 
-## Anforderungen
+## Requirements
 
-- Ubuntu- oder Debian-basiertes System
-- Bash-Shell
-- APT-Paketmanager
-- (Optional) Flatpak und Snap, falls installiert
+- Ubuntu or Debian-based system
+- Bash shell
+- APT package manager
+- (Optional) Flatpak and Snap, if installed
