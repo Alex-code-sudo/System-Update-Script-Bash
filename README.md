@@ -13,6 +13,12 @@ Features
     Colorful and informative output
     Error handling and user guidance
 
+## Installation
+
+    Clone this repository:
+    ```bash
+git clone https://github.com/Alex-code-sudo/System-Update-Script-Bash.git && cd System-Update-Script-Bash
+
 Usage
 
     Make the script executable:
